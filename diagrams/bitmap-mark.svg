@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="bitmap-mark.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="267.14286"
+     inkscape:cy="549.28571"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="75.714279"
+       y="633.79077"
+       id="text2987"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\f\laos\firmware\bitmap-mark.png"
+       inkscape:export-xdpi="149.88242"
+       inkscape:export-ydpi="149.88242"><tspan
+         sodipodi:role="line"
+         id="tspan2989"
+         x="75.714279"
+         y="633.79077">(X0,Y0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="348.57141"
+       y="311.64789"
+       id="text2991"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\f\laos\firmware\bitmap-mark.png"
+       inkscape:export-xdpi="149.88242"
+       inkscape:export-ydpi="149.88242"><tspan
+         sodipodi:role="line"
+         id="tspan2993"
+         x="348.57141"
+         y="311.64789">(X1,Y1)</tspan></text>
+    <g
+       id="g3870"
+       transform="matrix(0.74290478,-0.66939711,0.66939711,0.74290478,-235.37622,303.71825)"
+       inkscape:export-filename="E:\f\laos\firmware\bitmap-mark.png"
+       inkscape:export-xdpi="149.88242"
+       inkscape:export-ydpi="149.88242">
+      <g
+         transform="matrix(0.99999726,-0.00234086,0.00234086,0.99999726,-1.083723,0.65961125)"
+         id="g3821">
+        <g
+           id="g3777"
+           inkscape:tile-cx="99.500027"
+           inkscape:tile-cy="519.00165"
+           inkscape:tile-w="21.213203"
+           inkscape:tile-h="24.243662"
+           inkscape:tile-x0="88.893425"
+           inkscape:tile-y0="506.87982"
+           transform="translate(1.4285714,-55.714286)">
+          <rect
+             y="506.87982"
+             x="88.893425"
+             height="24.243662"
+             width="21.213203"
+             id="rect3769"
+             style="opacity:0.45739908;fill:#ffffff;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3767"
+             d="m 90.714286,511.50165 0,15"
+             style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.91145545px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 92.821799,463.24309 359.369791,0 -359.369791,0 z"
+           id="path3763"
+           inkscape:connector-curvature="0" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           id="use3781"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(21.213203,-2.2692062e-7)"
+           id="use3783"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(42.426407,-2.2692062e-7)"
+           id="use3785"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(63.63961,-2.2692062e-7)"
+           id="use3787"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(84.852814,-2.2692062e-7)"
+           id="use3789"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(106.06602,-2.2692062e-7)"
+           id="use3791"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(127.27922,-2.2692062e-7)"
+           id="use3793"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(148.49242,-2.2692062e-7)"
+           id="use3795"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(169.70563,-2.2692062e-7)"
+           id="use3797"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(190.91883,-2.2692062e-7)"
+           id="use3799"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(212.13203,-2.2692062e-7)"
+           id="use3801"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(233.34524,-2.2692062e-7)"
+           id="use3803"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(254.55844,-2.2692062e-7)"
+           id="use3805"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(275.77164,-2.2692062e-7)"
+           id="use3807"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(296.98485,-2.2692062e-7)"
+           id="use3809"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(318.19805,-2.2692062e-7)"
+           id="use3811"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(339.41125,-2.2692062e-7)"
+           id="use3813"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           inkscape:tiled-clone-of="#g3777"
+           xlink:href="#g3777"
+           transform="translate(360.62446,-2.2692062e-7)"
+           id="use3815"
+           width="744.09448"
+           height="1052.3622" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3845"
+         y="454.23096"
+         x="82.591408"
+         style="font-size:14.11431026px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="454.23096"
+           x="82.591408"
+           id="tspan3847"
+           sodipodi:role="line">S0</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3845-1"
+         y="450.98526"
+         x="443.52472"
+         style="font-size:14.11431026px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="450.98526"
+           x="443.52472"
+           id="tspan3847-7"
+           sodipodi:role="line">Sn</tspan></text>
+    </g>
+  </g>
+</svg>
