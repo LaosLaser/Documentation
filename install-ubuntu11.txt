@@ -1,0 +1,76 @@
+Ubuntu 11.04
+
+
+install "svn"
+
+add line in ./subversion/servers "ssl-trust-default-ca=no"
+
+svn co https://laoslaser.org/laos
+
+
+install "mono-complete"
+Essentials
+~~~~~~~~~~
+
+cd
+cd Documents
+
+apt-get install cups-pdf make libconfig++8-dev 
+
+cd laos/cups-laos/src
+make 
+sudo make install
+
+make sure bash is your default shell (dash will give you compilation problems!):
+
+rm /bin/sh && ln -s /bin/bash /bin/sh 
+
+
+make directory
+/var/spool/cups-laos
+
+
+
+
+Compiling pstoedit
+~~~~~~~~~~~~~~~~~~
+cd pstoedit/src
+./configure
+make
+sudo make install
+
+
+Installing printer driver
+~~~~~~~~~~~~~~~~~~~~~~~~~
+start "printer"
+
+add "Generic-CUPS Laos"
+Leave Default URL
+Searhcing for drivers.....  
+Select "Generic-Cups-laos"
+
+Short name "simulator"
+
+
+/etc/ls.so.conf
+Add line "/usr/local/lib"
+run ldconfig
+
+
+
+Start Simulator
+~~~~~~~~~~~~~~~
+
+cd ../simulator/bin/Debug/
+mono simulator.exe
+
+
+BUGS/Problemen:
+- cgcode.cfg naar /usr/local/share/pstoedit
+- spool directory wordt niet gemaakt als die er niet is
+- log file verkeerde rechten (root:root) en kan niet geschreven worden
+- Library pstoedit.so.0 not found
+- default options niet aanwezig? Pas als je iets veranderd lijkt CUPS opties mee te geven
+
+
+
