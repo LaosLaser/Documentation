@@ -1,0 +1,65 @@
+NodeObject 	6436
+{
+ { Name 	"%%class%%1292884352_7_4168"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	5033}
+ { GUID 	"UID_10ADE563-ECED-4150-A4FD-3EA00998BFFA"}
+ { SequenceId 	5905}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	6437
+{
+ { Name 	"Generic PS printer output"}
+ { Type 	UmlPartInstance}
+ { Sig 	""}
+ { ScopeNodeId 	5033}
+ { ObjectId 	5034}
+ { GUID 	"UID_78F2DFA3-D814-4514-BE86-4322EA0C67FE"}
+ { SequenceId 	5905}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	6438
+{
+ { Name 	"%%class%%1292884352_4_4168"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	5023}
+ { GUID 	"UID_BB0F807E-161B-435b-AD0D-04793E7FEAC8"}
+ { SequenceId 	5905}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	6439
+{
+ { Name 	"Extract settings from DCS"}
+ { Type 	UmlPartInstance}
+ { Sig 	"UID_80D8DBDD-CB28-4e99-8309-6F5D82AD4B25"}
+ { ScopeNodeId 	5023}
+ { ObjectId 	6095}
+ { GUID 	"UID_CA5B8270-972B-45b4-8930-ECFCCE1624D4"}
+ { SequenceId 	5905}
+ { Gocha 	-1 }
+}
+
+
+LinkObject 	6440
+{
+ { Name 	"lpr/smb/CUPS/file"}
+ { Type 	UmlDependency}
+ { Sig 	""}
+ { ObjectId 	6117}
+ { GUID 	"UID_53968F9C-FD8D-475c-9855-C0198F0E58E4"}
+ { SequenceId 	5905}
+ { ScopeNodeId 	0}
+ { FromNodeId 	5034}
+ { ToNodeId 	6095}
+ { Gocha 	0 }
+}

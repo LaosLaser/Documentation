@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a189" }
+    { Type ObjectAnnotation }
+    { GUID "UID_DC5486E2-6E1E-43be-A50B-8E976C3B8484" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292884352_11_4168" }
+    { Type UmlPartClassScope }
+    { ObjectId 5046 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_0A93165C-1CEF-45a4-A686-697F8D4A900E" }
+}
+
+NodeObject 99998
+{
+    { Name "Laser" }
+    { Type UmlPartInstance }
+    { ObjectId 5047 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_DC07C9C0-90FD-46df-A623-C73DA9E599E7" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3373 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3375 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "MotorY" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3376 }
+}
+

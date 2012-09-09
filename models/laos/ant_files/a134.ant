@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a134" }
+    { Type ObjectAnnotation }
+    { GUID "UID_92EA059E-F180-4e3c-A3D7-95FF5B9BF6C1" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291919484_1_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 3000 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_C78E994B-B449-4a58-94D9-8C19B30591C1" }
+}
+
+NodeObject 99998
+{
+    { Name "laos data driver" }
+    { Type UmlPartInstance }
+    { ObjectId 3570 }
+    { AnnotFileId 1 }
+    { Sig "UID_2D16ABDE-34BB-4ab8-8144-C34F25DD1454" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_FC091146-9B7A-428e-B062-05A0C8D07DD6" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3564 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3566 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "laos driver" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3567 }
+}
+

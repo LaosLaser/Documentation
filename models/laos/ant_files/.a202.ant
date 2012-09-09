@@ -1,0 +1,24 @@
+NodeObject 	5555
+{
+ { Name 	"%%class%%1292885139_4168"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	5535}
+ { GUID 	"UID_E13017D6-0BCF-41e2-8A94-66CA6921FA2A"}
+ { SequenceId 	5307}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	5556
+{
+ { Name 	"User Interface"}
+ { Type 	UmlPartInstance}
+ { Sig 	"UID_4F5C2944-C7AA-4d8a-9686-34AB589F6E56"}
+ { ScopeNodeId 	5535}
+ { ObjectId 	5544}
+ { GUID 	"UID_6199775D-880B-4a30-A642-23FBA517BD9C"}
+ { SequenceId 	5307}
+ { Gocha 	0 }
+}

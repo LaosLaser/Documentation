@@ -1,0 +1,4 @@
+server=SQLite
+repname=laos
+msgdContext=8EFECC91-0988-4951-8950-917CE9EFCCCE
+repositoryType=SQLite

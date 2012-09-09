@@ -1,0 +1,3154 @@
+Diagram UmlCompositeStructureDiagram
+{
+    { Name "components-step1" }
+    { Format "1.7" }
+    { Scale 1.00 }
+    { PanX -767 }
+    { PanY -358 }
+    { Alignment 1 }
+    { GUID "UID_5C4B7976-6207-4322-B14E-F085B6E8E336" }
+    { Summary
+        { Nodes 38 }
+        { Arcs 49 }
+    }
+}
+
+Node 112
+{
+    { Type Object }
+    { Loc -245 -58 }
+    { Scale 1533.49 1567.22 }
+    { Label
+        { Text "PC" }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%object%%1292884352_4168" }
+        }
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_0_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5012 }
+        { GUID "UID_2180F423-A39A-44c3-B8BD-5D0DCBF2CC7F" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6061 }
+        { GUID "UID_80D8DBDD-CB28-4e99-8309-6F5D82AD4B25" }
+    }
+}
+
+Node 2
+{
+    { Type Part }
+    { Loc -431 -226 }
+    { Scale 424.16 117.96 }
+    { Label
+        { Text "Ghostscript" }
+    }
+    { IsIncluded True }
+    { Parent 112 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -85 -23 }
+            { End -85 23 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -85 23 }
+            { End 84 23 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 84 -23 }
+            { End 84 23 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -85 -23 }
+            { End 84 -23 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_1_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_1_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5014 }
+        { GUID "UID_2900DA25-6654-4296-9398-31A99DF31C3F" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6134 }
+        { GUID "UID_B9891B62-FEB6-4384-8775-79446D3DA0DE" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6078 }
+        { GUID "UID_E2085630-7D33-45ff-8FE8-F89BC5F1EE64" }
+    }
+}
+
+Node 22
+{
+    { Type Port }
+    { Loc -427 -203 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 2 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919205_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919205_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6079 }
+        { GUID "UID_ED591760-4CEE-4533-B6F8-3EBC5A269F93" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6133 }
+        { GUID "UID_83E14148-B2C8-4f52-8FB9-7D55F509F4C2" }
+    }
+}
+
+Node 4
+{
+    { Type Part }
+    { Loc -176 -85 }
+    { Scale 278.59 243.45 }
+    { Label
+        { Text "drv gcode-laos" }
+    }
+    { IsIncluded True }
+    { Parent 112 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -55 -48 }
+            { End -55 48 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -55 48 }
+            { End 55 48 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 55 -48 }
+            { End 55 48 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -55 -48 }
+            { End 55 -48 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_2_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_2_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5017 }
+        { GUID "UID_AD45A0B0-66F2-45be-812D-33AC282878DE" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6132 }
+        { GUID "UID_16F5BAFF-A167-4b4a-9CA5-C614662100E9" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6064 }
+        { GUID "UID_B104126F-AB70-4216-A0CE-A5445CAD67F7" }
+    }
+}
+
+Node 292
+{
+    { Type Port }
+    { Loc -231 -66 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 4 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919747_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919747_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6065 }
+        { GUID "UID_06C37C93-919E-42b0-8C11-3BDCE2F44993" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6131 }
+        { GUID "UID_DCE09B61-1A89-49b9-93B7-A1F01671BD44" }
+    }
+}
+
+Node 347
+{
+    { Type Port }
+    { Loc -231 -109 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 4 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919961_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919961_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6067 }
+        { GUID "UID_67A6DB3E-D08B-41d9-873B-4B324E68A37F" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6130 }
+        { GUID "UID_56530183-74B1-4056-970D-CF9ED85B8C98" }
+    }
+}
+
+Node 652
+{
+    { Type Port }
+    { Loc -183 -37 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 4 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291920806_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291920806_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6069 }
+        { GUID "UID_AED103A5-ACB8-4bc0-A980-2C0C9EBDE2E6" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6129 }
+        { GUID "UID_131EC4CA-DE3A-40bd-B1DA-03C5D73378D6" }
+    }
+}
+
+Node 3
+{
+    { Type Part }
+    { Loc -430 -108 }
+    { Scale 429.18 135.53 }
+    { Label
+        { Text "pstoedit" }
+    }
+    { IsIncluded True }
+    { Parent 112 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -86 -27 }
+            { End -86 27 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -86 27 }
+            { End 85 27 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 85 -27 }
+            { End 85 27 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -86 -27 }
+            { End 85 -27 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_3_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_3_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5020 }
+        { GUID "UID_82D51007-17A1-48bd-9C17-0893AC338D69" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6128 }
+        { GUID "UID_8C844260-47D2-48a3-8247-5C81A1FCD4A6" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6062 }
+        { GUID "UID_076CADD6-96B9-4b2d-81C5-9ADA13BCB7A1" }
+    }
+}
+
+Node 78
+{
+    { Type Port }
+    { Loc -427 -135 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 3 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919332_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919332_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6082 }
+        { GUID "UID_E12EB189-54D7-44e9-BAB5-75A7FCD34531" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6127 }
+        { GUID "UID_2DF5692D-F917-4aa9-AAD1-F252DCE26D68" }
+    }
+}
+
+Node 272
+{
+    { Type Port }
+    { Loc -471 -81 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 3 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919708_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919708_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6109 }
+        { GUID "UID_2A9DA9BE-AD46-419a-A096-5686903F80DE" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6126 }
+        { GUID "UID_F9905B51-A6D8-400e-A9DC-9380A7856415" }
+    }
+}
+
+Node 342
+{
+    { Type Port }
+    { Loc -345 -113 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 3 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919957_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919957_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6104 }
+        { GUID "UID_80E30C49-2263-4de3-8789-D645EB5E889F" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6125 }
+        { GUID "UID_F9FD270C-9551-4fc1-92D2-E7992FD4139E" }
+    }
+}
+
+Node 263
+{
+    { Type Part }
+    { Loc -435 15 }
+    { Scale 451.76 128.00 }
+    { Label
+        { Text "Extract settings from DCS" }
+    }
+    { IsIncluded True }
+    { Parent 112 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -90 -26 }
+            { End -90 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -90 25 }
+            { End 90 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 90 -26 }
+            { End 90 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -90 -26 }
+            { End 90 -26 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_4_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_4_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5023 }
+        { GUID "UID_BB0F807E-161B-435b-AD0D-04793E7FEAC8" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6124 }
+        { GUID "UID_CC382FA5-3C97-4e41-9AFF-10B479E41ADF" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6095 }
+        { GUID "UID_CA5B8270-972B-45b4-8930-ECFCCE1624D4" }
+    }
+}
+
+Node 316
+{
+    { Type Port }
+    { Loc -473 -10 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 263 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919915_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919915_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6113 }
+        { GUID "UID_C7E04A5B-D1DD-4714-BCB4-571E07A1AF9F" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6123 }
+        { GUID "UID_1B672824-E612-4b62-B51B-37440AC7B512" }
+    }
+}
+
+Node 321
+{
+    { Type Port }
+    { Loc -345 -10 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 263 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291919919_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291919919_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6096 }
+        { GUID "UID_C0EE7BEA-52D1-4283-843E-86D7084E2490" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6122 }
+        { GUID "UID_0B30CB6F-4571-4c73-8FF4-CE52385EC99B" }
+    }
+}
+
+Node 570
+{
+    { Type Part }
+    { Loc -189 97 }
+    { Scale 301.18 128.00 }
+    { Label
+        { Text "Laos HW Driver" }
+    }
+    { IsIncluded True }
+    { Parent 112 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -60 -26 }
+            { End -60 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -60 25 }
+            { End 60 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 60 -26 }
+            { End 60 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -60 -26 }
+            { End 60 -26 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_5_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_5_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5026 }
+        { GUID "UID_21D212FB-6052-4cf6-BFF1-7AE0C0DE977D" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6121 }
+        { GUID "UID_026D666B-7DFC-4b9a-A1FB-DBE5BA0FC0ED" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6072 }
+        { GUID "UID_71C533E8-D073-4dc1-89BF-1A51CAE4E442" }
+    }
+}
+
+Node 589
+{
+    { Type Port }
+    { Loc -129 94 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 570 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291920733_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291920733_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6073 }
+        { GUID "UID_3F9030C7-95DF-47ea-8FC9-E2AD30920833" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6120 }
+        { GUID "UID_D318AD47-0A8B-4763-A7A9-69E023768D9D" }
+    }
+}
+
+Node 661
+{
+    { Type Port }
+    { Loc -183 72 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 570 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291920814_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291920814_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6075 }
+        { GUID "UID_88C269C6-BDA5-49bd-9461-52845A8FEB51" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6119 }
+        { GUID "UID_2990D4BC-5A47-48bf-B2B0-6F375B12E073" }
+    }
+}
+
+Node 449
+{
+    { Type PartUnowned }
+    { Loc -268 285 }
+    { Scale 188.24 128.00 }
+    { Label
+        { Text "PPD" }
+    }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Dashed }
+            { Fill None }
+            { Loc -38 -26 }
+            { End -38 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Dashed }
+            { Fill None }
+            { Loc -38 25 }
+            { End 37 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Dashed }
+            { Fill None }
+            { Loc 37 -26 }
+            { End 37 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Dashed }
+            { Fill None }
+            { Loc -38 -26 }
+            { End 37 -26 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_6_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_6_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartUnownedMapping }
+        { ID 5925 }
+        { GUID "UID_006F6C7C-F42A-46bd-BC48-2375792FDA25" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5029 }
+        { GUID "UID_1A928242-C390-4170-8C84-BEEB2F9B5724" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 5924 }
+        { GUID "UID_0F6E2340-1793-4308-94A3-C4172C2CCDC1" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 5922 }
+        { GUID "UID_234CF4AD-6739-4aa0-9A00-8DD1A7CC6A9E" }
+    }
+}
+
+Node 1048
+{
+    { Type InstanceAttribute }
+    { Loc -269 291 }
+    { Scale 284.90 50.20 }
+    { Label
+        { Text "(V,P,F,DPI)" }
+    }
+    { IsIncluded True }
+    { Parent 449 }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectInstanceValue }
+        { ID 6469 }
+        { GUID "UID_9A342AEE-9714-4404-BCD0-7419968A622B" }
+    }
+}
+
+Node 450
+{
+    { Type PartUnowned }
+    { Loc -449 284 }
+    { Scale 439.22 128.00 }
+    { Label
+        { Text "Generic PS printer output" }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_7_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_7_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartUnownedMapping }
+        { ID 5036 }
+        { GUID "UID_1B7A23D9-3D76-48a1-8159-3C7C03B336D5" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5033 }
+        { GUID "UID_10ADE563-ECED-4150-A4FD-3EA00998BFFA" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 5035 }
+        { GUID "UID_0F1D3A70-C46D-4b99-A292-B136A951CD3C" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 5034 }
+        { GUID "UID_78F2DFA3-D814-4514-BE86-4322EA0C67FE" }
+    }
+}
+
+Node 850
+{
+    { Type Object }
+    { Loc 309 -59 }
+    { Scale 1209.73 1570.34 }
+    { Label
+        { Text "Laser system" }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885463_0_5992" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%object%%1292885463_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5962 }
+        { GUID "UID_A8D52525-FA20-42a4-B0FB-714F8E12586D" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6012 }
+        { GUID "UID_72AB040A-1AB2-4c24-99C2-8E6570414885" }
+    }
+}
+
+Node 89
+{
+    { Type Part }
+    { Loc 243 -66 }
+    { Scale 293.65 471.84 }
+    { Label
+        { Text "laos mainboard" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -58 -94 }
+            { End -58 94 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -58 94 }
+            { End 58 94 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 58 -94 }
+            { End 58 94 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -58 -94 }
+            { End 58 -94 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884351_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884351_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5009 }
+        { GUID "UID_CEED1228-9BAF-497d-9CEB-88E072DD4B64" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6042 }
+        { GUID "UID_F8B25BF0-C023-4d9b-97CB-61E65C29BEB2" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6021 }
+        { GUID "UID_9DAF4379-BD55-40dd-8D24-2565F4AB0C04" }
+    }
+}
+
+Node 424
+{
+    { Type Port }
+    { Loc 185 -138 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 89 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1291920033_0_3804" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1291920033_3804" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6022 }
+        { GUID "UID_200B93DA-8CED-4c67-B151-A62D03E7D557" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6041 }
+        { GUID "UID_A0450BE2-2CFE-466a-B84B-51C22A822410" }
+    }
+}
+
+Node 926
+{
+    { Type Port }
+    { Loc 213 -160 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 89 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885567_0_5992" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1292885567_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6298 }
+        { GUID "UID_F5189A6B-7E8F-406b-B898-8E328DCBEB0B" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6300 }
+        { GUID "UID_591B781B-151D-4d4e-B5E1-E57C9DAF8567" }
+    }
+}
+
+Node 931
+{
+    { Type Port }
+    { Loc 301 -160 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 89 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885576_0_5992" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1292885576_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6301 }
+        { GUID "UID_7B763741-D0BB-496c-B488-71ADF98EAB71" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6303 }
+        { GUID "UID_D2F1202D-7D98-4e37-8A11-72108B298774" }
+    }
+}
+
+Node 966
+{
+    { Type Part }
+    { Loc 244 4 }
+    { Scale 268.55 90.35 }
+    { Label
+        { Text "CONTROL" }
+    }
+    { IsIncluded True }
+    { Parent 89 }
+    { PropertyList
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292885616_5992" }
+        }
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885616_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6348 }
+        { GUID "UID_E093216C-999E-41de-930C-5AA9EF3189A8" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6432 }
+        { GUID "UID_AFCE1A7C-42C3-42c2-9488-8AE348E4B2EB" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6430 }
+        { GUID "UID_FDB8E4CB-CCB5-4e13-AD57-4055076FDDAE" }
+    }
+}
+
+Node 1029
+{
+    { Type Part }
+    { Loc 244 -78 }
+    { Scale 268.55 90.35 }
+    { Label
+        { Text "GCODE" }
+    }
+    { IsIncluded True }
+    { Parent 89 }
+    { PropertyList
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292885692_5992" }
+        }
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885692_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6369 }
+        { GUID "UID_A3F0310F-4417-469d-BB53-0064CD45D961" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6393 }
+        { GUID "UID_9B8A8FF3-F33A-4e44-8322-DE61F5917259" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6391 }
+        { GUID "UID_F8F4B377-A70C-40c5-B447-61504E011762" }
+    }
+}
+
+Node 1034
+{
+    { Type Part }
+    { Loc 245 -36 }
+    { Scale 268.55 90.35 }
+    { Label
+        { Text "CONFIG" }
+    }
+    { IsIncluded True }
+    { Parent 89 }
+    { PropertyList
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292885696_5992" }
+        }
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885696_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6375 }
+        { GUID "UID_11791F4A-4430-4c0c-8CBE-BB2B3883326D" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6402 }
+        { GUID "UID_78880335-9A15-4b4f-9BB9-2403BD5259E6" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6400 }
+        { GUID "UID_288A9AC6-37A9-41a1-AED2-CEFE0665BA09" }
+    }
+}
+
+Node 1043
+{
+    { Type Part }
+    { Loc 244 -120 }
+    { Scale 268.55 90.35 }
+    { Label
+        { Text "UI" }
+    }
+    { IsIncluded True }
+    { Parent 89 }
+    { PropertyList
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292885727_5992" }
+        }
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885727_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6403 }
+        { GUID "UID_71A6A8E1-64BB-4148-A9F2-93EE6FFC7E68" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6423 }
+        { GUID "UID_2813ECB5-AC55-4c5f-B304-1C120CD5CCC9" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6421 }
+        { GUID "UID_003A2503-9A7A-4e29-B358-8E9222956BF7" }
+    }
+}
+
+Node 493
+{
+    { Type Part }
+    { Loc 456 -235 }
+    { Scale 170.67 128.00 }
+    { Label
+        { Text "MotorX" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_8_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_8_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5037 }
+        { GUID "UID_AB053BA9-38B1-4308-A128-CCB5C748AC3E" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6040 }
+        { GUID "UID_4337679F-6E2B-4580-A129-8048422C6C44" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6024 }
+        { GUID "UID_FA0CB591-67B2-4a93-9700-ABEBBD0CDFB9" }
+    }
+}
+
+Node 494
+{
+    { Type Part }
+    { Loc 456 -168 }
+    { Scale 175.69 128.00 }
+    { Label
+        { Text "MotorY" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_9_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_9_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5040 }
+        { GUID "UID_4BC26F6A-1741-464a-AA5E-309A350834D7" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6039 }
+        { GUID "UID_88EA2D20-6E37-4537-B17E-C04DF7D3FF6B" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6019 }
+        { GUID "UID_D68526BB-0801-426e-86AB-191116159342" }
+    }
+}
+
+Node 495
+{
+    { Type Part }
+    { Loc 457 -97 }
+    { Scale 175.69 128.00 }
+    { Label
+        { Text "MotorZ" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_10_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_10_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5043 }
+        { GUID "UID_CD51A751-1D53-499a-A640-A3F04CE13A73" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6038 }
+        { GUID "UID_393825EA-5EA2-4416-85F9-8ACC902D7E95" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6017 }
+        { GUID "UID_20538913-984F-4931-AA29-158A60FD06A7" }
+    }
+}
+
+Node 496
+{
+    { Type Part }
+    { Loc 459 -30 }
+    { Scale 175.69 128.00 }
+    { Label
+        { Text "Laser" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_11_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_11_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5046 }
+        { GUID "UID_0A93165C-1CEF-45a4-A686-697F8D4A900E" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6037 }
+        { GUID "UID_1113FF9B-B36A-402e-8EB6-9FBF6D683EAC" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6015 }
+        { GUID "UID_1974EF2E-EC63-4cd3-83FF-1C7627635933" }
+    }
+}
+
+Node 497
+{
+    { Type Part }
+    { Loc 461 32 }
+    { Scale 268.55 128.00 }
+    { Label
+        { Text "Peripheral I/O" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292884352_12_4168" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292884352_12_4168" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 5049 }
+        { GUID "UID_E372878A-A09E-45dc-BFE3-137B54F25819" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6036 }
+        { GUID "UID_5EE3C4EC-F25E-4636-BFF9-3CECBD70B263" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6013 }
+        { GUID "UID_4ACA8383-F0AC-4d55-8A72-F6B37AEE91E1" }
+    }
+}
+
+Node 905
+{
+    { Type Part }
+    { Loc 142 -249 }
+    { Scale 268.55 128.00 }
+    { Label
+        { Text "File stororage" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -54 -26 }
+            { End -54 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -54 25 }
+            { End 53 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 53 -26 }
+            { End 53 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -54 -26 }
+            { End 53 -26 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%part%%1292885521_1_5992" }
+        }
+        { Property
+            { Name "AnonymousNamePart" }
+            { Value "%%part%%1292885521_0_5992" }
+        }
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292885521_5992" }
+        }
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885521_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6281 }
+        { GUID "UID_015E2F9E-65AC-4029-8112-2544F94DFD00" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6287 }
+        { GUID "UID_7E072EB6-FD36-482a-A151-77C5BD829ACB" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6285 }
+        { GUID "UID_468D431D-AC86-48fd-9760-B3DC87F9F171" }
+    }
+}
+
+Node 952
+{
+    { Type Port }
+    { Loc 133 -224 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 905 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885590_0_5992" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1292885590_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6304 }
+        { GUID "UID_E4FAD094-6091-4c77-8042-6F62E30D22B9" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6306 }
+        { GUID "UID_E31F4DA2-C500-404a-96E4-77782C83E0C8" }
+    }
+}
+
+Node 921
+{
+    { Type Part }
+    { Loc 275 -250 }
+    { Scale 271.06 128.00 }
+    { Label
+        { Text "User Interface" }
+    }
+    { IsIncluded True }
+    { Parent 850 }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -54 -26 }
+            { End -54 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -54 25 }
+            { End 54 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 54 -26 }
+            { End 54 25 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -54 -26 }
+            { End 54 -26 }
+        }
+    }
+    { PropertyList
+        { Property
+            { Name "type" }
+            { Value "%%class%%1292885544_5992" }
+        }
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885544_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6290 }
+        { GUID "UID_D5B52740-E69A-435b-A3EB-CD801EF980E4" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName PartRoleMapping }
+        { ID 6297 }
+        { GUID "UID_E32C8DB0-2FB1-46c5-B063-5BD97FAD9EB6" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 6295 }
+        { GUID "UID_24A76E51-A32F-45b5-95C0-D685C3D84BBD" }
+    }
+}
+
+Node 957
+{
+    { Type Port }
+    { Loc 265 -225 }
+    { Scale 25.60 25.60 }
+    { IsIncluded True }
+    { Parent 921 }
+    { PropertyList
+        { Property
+            { Name "AnonymousNameClass" }
+            { Value "%%class%%1292885596_0_5992" }
+        }
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%port%%1292885596_5992" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 6307 }
+        { GUID "UID_1F2483C8-BD74-4512-884F-4BA7F9C4F82E" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6309 }
+        { GUID "UID_6DEA5F6D-B1D4-4a94-8D31-F8915E008FBB" }
+    }
+}
+
+Arc 498
+{
+    { Type Dependency }
+    { From
+        { ID 89 }
+        { Loc 420 -149 }
+        { Offset 52 -69 }
+    }
+    { To
+        { ID 493 }
+        { Loc 541 -240 }
+        { Offset -17 -7 }
+    }
+}
+
+Arc 319
+{
+    { Type Contains }
+    { From
+        { ID 263 }
+        { Loc -316 5 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 316 }
+        { Loc -354 -20 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 467
+{
+    { Type Dependency }
+    { From
+        { ID 450 }
+        { Loc -337 249 }
+        { Offset -7 -23 }
+    }
+    { To
+        { ID 263 }
+        { Loc -334 30 }
+        { Offset -18 12 }
+    }
+    { Label
+        { Text "lpr / smb / CUPS / file" }
+    }
+}
+
+Arc 500
+{
+    { Type Dependency }
+    { From
+        { ID 89 }
+        { Loc 420 -142 }
+        { Offset 50 -65 }
+    }
+    { To
+        { ID 494 }
+        { Loc 540 -176 }
+        { Offset -15 -2 }
+    }
+}
+
+Arc 326
+{
+    { Type Connector }
+    { From
+        { ID 272 }
+        { Loc -352 -86 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 316 }
+        { Loc -354 -25 }
+        { Offset 0 0 }
+    }
+    { Label
+        { Text "PS file" }
+    }
+}
+
+Arc 502
+{
+    { Type Dependency }
+    { From
+        { ID 89 }
+        { Loc 420 -144 }
+        { Offset 50 -69 }
+    }
+    { To
+        { ID 495 }
+        { Loc 541 -106 }
+        { Offset -15 6 }
+    }
+}
+
+Arc 504
+{
+    { Type Dependency }
+    { From
+        { ID 89 }
+        { Loc 420 -134 }
+        { Offset 43 -68 }
+    }
+    { To
+        { ID 496 }
+        { Loc 543 -41 }
+        { Offset -34 -1 }
+    }
+}
+
+Arc 491
+{
+    { Type Contains }
+    { From
+        { ID 112 }
+        { Loc -126 -68 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 263 }
+        { Loc -316 5 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 848
+{
+    { Type Dependency }
+    { From
+        { ID 449 }
+        { Loc -186 273 }
+        { Offset -37 -2 }
+    }
+    { To
+        { ID 450 }
+        { Loc -243 273 }
+        { Offset 85 -1 }
+    }
+}
+
+Arc 275
+{
+    { Type Contains }
+    { From
+        { ID 3 }
+        { Loc -311 -118 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 272 }
+        { Loc -352 -91 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 506
+{
+    { Type Dependency }
+    { From
+        { ID 89 }
+        { Loc 420 -129 }
+        { Offset 45 -71 }
+    }
+    { To
+        { ID 497 }
+        { Loc 527 20 }
+        { Offset -44 10 }
+    }
+}
+
+Arc 345
+{
+    { Type Contains }
+    { From
+        { ID 3 }
+        { Loc -311 -118 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 342 }
+        { Loc -226 -123 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 806
+{
+    { Type Contains }
+    { From
+        { ID 3 }
+        { Loc -311 -118 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 78 }
+        { Loc -308 -145 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 352
+{
+    { Type Connector }
+    { From
+        { ID 342 }
+        { Loc -221 -123 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 347 }
+        { Loc -117 -119 }
+        { Offset 0 0 }
+    }
+    { Label
+        { Text "Driver calls" }
+    }
+}
+
+Arc 650
+{
+    { Type Connector }
+    { From
+        { ID 321 }
+        { Loc -221 -21 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 292 }
+        { Loc -117 -74 }
+        { Offset 0 0 }
+    }
+    { Label
+        { Text "Settings" }
+    }
+}
+
+Arc 568
+{
+    { Type Contains }
+    { From
+        { ID 263 }
+        { Loc -316 5 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 321 }
+        { Loc -226 -20 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 594
+{
+    { Type Connector }
+    { From
+        { ID 589 }
+        { Loc -5 81 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 424 }
+        { Loc 299 -145 }
+        { Offset 0 0 }
+    }
+    { Label
+        { Text "Socket Connection" }
+    }
+}
+
+Arc 828
+{
+    { Type Contains }
+    { From
+        { ID 112 }
+        { Loc -126 -68 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 2 }
+        { Loc -312 -236 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 676
+{
+    { Type Connector }
+    { From
+        { ID 652 }
+        { Loc -64 -42 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 661 }
+        { Loc -64 57 }
+        { Offset 0 0 }
+    }
+    { Label
+        { Text "Output file (vec+data)" }
+    }
+}
+
+Arc 83
+{
+    { Type Connector }
+    { From
+        { ID 22 }
+        { Loc -308 -208 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 78 }
+        { Loc -308 -150 }
+        { Offset 0 0 }
+    }
+    { Label
+        { Text "PS file" }
+    }
+}
+
+Arc 830
+{
+    { Type Contains }
+    { From
+        { ID 2 }
+        { Loc -312 -236 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 22 }
+        { Loc -308 -213 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 762
+{
+    { Type Contains }
+    { From
+        { ID 112 }
+        { Loc -126 -68 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 570 }
+        { Loc -70 87 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 766
+{
+    { Type Contains }
+    { From
+        { ID 570 }
+        { Loc -70 87 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 661 }
+        { Loc -64 62 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 768
+{
+    { Type Contains }
+    { From
+        { ID 570 }
+        { Loc -70 87 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 589 }
+        { Loc -10 84 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 776
+{
+    { Type Contains }
+    { From
+        { ID 112 }
+        { Loc -126 -68 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 4 }
+        { Loc -57 -95 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 778
+{
+    { Type Contains }
+    { From
+        { ID 4 }
+        { Loc -57 -95 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 652 }
+        { Loc -64 -47 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 780
+{
+    { Type Contains }
+    { From
+        { ID 4 }
+        { Loc -57 -95 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 347 }
+        { Loc -112 -119 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 782
+{
+    { Type Contains }
+    { From
+        { ID 4 }
+        { Loc -57 -95 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 292 }
+        { Loc -112 -76 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 487
+{
+    { Type Contains }
+    { From
+        { ID 112 }
+        { Loc -126 -68 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 3 }
+        { Loc -311 -118 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 877
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 497 }
+        { Loc 580 22 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 879
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 496 }
+        { Loc 578 -40 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 881
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 495 }
+        { Loc 576 -107 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 883
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 494 }
+        { Loc 575 -178 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 885
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 493 }
+        { Loc 575 -245 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 919
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 905 }
+        { Loc 261 -259 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 924
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 921 }
+        { Loc 394 -260 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 955
+{
+    { Type Contains }
+    { From
+        { ID 905 }
+        { Loc 261 -259 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 952 }
+        { Loc 252 -234 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 960
+{
+    { Type Contains }
+    { From
+        { ID 921 }
+        { Loc 394 -260 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 957 }
+        { Loc 384 -235 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 962
+{
+    { Type Connector }
+    { From
+        { ID 952 }
+        { Loc 257 -231 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 926 }
+        { Loc 327 -173 }
+        { Offset 0 0 }
+    }
+}
+
+Arc 964
+{
+    { Type Connector }
+    { From
+        { ID 957 }
+        { Loc 386 -230 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 931 }
+        { Loc 418 -175 }
+        { Offset 0 0 }
+    }
+}
+
+Arc 1019
+{
+    { Type Contains }
+    { From
+        { ID 850 }
+        { Loc 428 -69 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 89 }
+        { Loc 362 -76 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1023
+{
+    { Type Contains }
+    { From
+        { ID 89 }
+        { Loc 362 -76 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 931 }
+        { Loc 420 -170 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1025
+{
+    { Type Contains }
+    { From
+        { ID 89 }
+        { Loc 362 -76 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 926 }
+        { Loc 332 -170 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1027
+{
+    { Type Contains }
+    { From
+        { ID 89 }
+        { Loc 362 -76 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 424 }
+        { Loc 304 -148 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1032
+{
+    { Type Contains }
+    { From
+        { ID 89 }
+        { Loc 362 -76 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 1029 }
+        { Loc 363 -88 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1037
+{
+    { Type Contains }
+    { From
+        { ID 89 }
+        { Loc 362 -76 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 1034 }
+        { Loc 364 -46 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1041
+{
+    { Type Contains }
+    { From
+        { ID 89 }
+        { Loc 362 -76 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 966 }
+        { Loc 363 -6 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1046
+{
+    { Type Contains }
+    { From
+        { ID 89 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 1043 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 1051
+{
+    { Type Contains }
+    { From
+        { ID 449 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 1048 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Link 499
+{
+    { FirstArc 498 }
+    { LastArc 498 }
+    { Object
+        { PDMType Link }
+        { MappingName DependencyMappingUsePP }
+        { ID 6035 }
+        { GUID "UID_381EED3D-B1BD-40dc-AD59-41BB8974AB28" }
+    }
+}
+
+Link 320
+{
+    { FirstArc 319 }
+    { LastArc 319 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6118 }
+        { GUID "UID_D355739B-3C7A-46c1-A768-3D93AE5A8DE9" }
+    }
+}
+
+Link 468
+{
+    { FirstArc 467 }
+    { LastArc 467 }
+    { Object
+        { PDMType Link }
+        { MappingName DependencyMappingUsePP }
+        { ID 6117 }
+        { GUID "UID_53968F9C-FD8D-475c-9855-C0198F0E58E4" }
+    }
+}
+
+Link 501
+{
+    { FirstArc 500 }
+    { LastArc 500 }
+    { Object
+        { PDMType Link }
+        { MappingName DependencyMappingUsePP }
+        { ID 6034 }
+        { GUID "UID_750E2200-16F3-42df-A0FD-CCB7BF0D2A23" }
+    }
+}
+
+Link 327
+{
+    { FirstArc 326 }
+    { LastArc 326 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6112 }
+        { GUID "UID_3A1A22A1-E366-4456-8485-48F07D1FFD7D" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6116 }
+        { GUID "UID_9D72FA3D-A845-431d-9318-AEAB848A89CF" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6115 }
+        { GUID "UID_8C684AD5-5773-497a-B65F-BB0E24E586EA" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6114 }
+        { GUID "UID_6DC42183-61AF-43ec-A480-33BA44295D66" }
+    }
+}
+
+Link 503
+{
+    { FirstArc 502 }
+    { LastArc 502 }
+    { Object
+        { PDMType Link }
+        { MappingName DependencyMappingUsePP }
+        { ID 6033 }
+        { GUID "UID_F2362A52-639D-4c87-9C1A-344D0369CCD5" }
+    }
+}
+
+Link 505
+{
+    { FirstArc 504 }
+    { LastArc 504 }
+    { Object
+        { PDMType Link }
+        { MappingName DependencyMappingUsePP }
+        { ID 6032 }
+        { GUID "UID_895A23BA-0C72-4352-9426-17C6D0642AB2" }
+    }
+}
+
+Link 492
+{
+    { FirstArc 491 }
+    { LastArc 491 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6111 }
+        { GUID "UID_DDF864A5-1D62-44df-966D-BA6DFC72C7A7" }
+    }
+}
+
+Link 849
+{
+    { FirstArc 848 }
+    { LastArc 848 }
+    { Object
+        { PDMType Link }
+        { MappingName DependencyMappingUsePP }
+        { ID 5926 }
+        { GUID "UID_BA28492B-BDCF-49c1-9E86-A1C98070362E" }
+    }
+}
+
+Link 276
+{
+    { FirstArc 275 }
+    { LastArc 275 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6110 }
+        { GUID "UID_15034B73-B1F7-48d1-BE35-5F305D983987" }
+    }
+}
+
+Link 507
+{
+    { FirstArc 506 }
+    { LastArc 506 }
+    { Object
+        { PDMType Link }
+        { MappingName DependencyMappingUsePP }
+        { ID 6031 }
+        { GUID "UID_54C06A01-027E-4dd6-8520-BB452BC44D8C" }
+    }
+}
+
+Link 346
+{
+    { FirstArc 345 }
+    { LastArc 345 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6108 }
+        { GUID "UID_1FF5785E-70FF-4ae6-80E0-25E1A7811B91" }
+    }
+}
+
+Link 807
+{
+    { FirstArc 806 }
+    { LastArc 806 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6107 }
+        { GUID "UID_D6AB3D48-8C63-4557-9567-A87FAC6106B4" }
+    }
+}
+
+Link 353
+{
+    { FirstArc 352 }
+    { LastArc 352 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6102 }
+        { GUID "UID_E0DBF199-74C5-4ada-AB1A-70DB4F53BCAE" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6106 }
+        { GUID "UID_A9D58C45-084D-4d5c-B526-1E5C773F313C" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6105 }
+        { GUID "UID_15D202F1-BCBC-4104-887A-692B6A20947C" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6103 }
+        { GUID "UID_E8276966-0444-4c1f-86BB-DC9BAE5F05AC" }
+    }
+}
+
+Link 651
+{
+    { FirstArc 650 }
+    { LastArc 650 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6098 }
+        { GUID "UID_5AAACC56-F80D-485f-B789-9A784F6F41B6" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6101 }
+        { GUID "UID_14225E2F-4347-4ad0-931B-4CD9D8C0F7DB" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6100 }
+        { GUID "UID_133450CD-293A-4b83-BCE0-2BE951F6D95E" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6099 }
+        { GUID "UID_858FBCDF-C909-44c0-AD71-859A770AF2B9" }
+    }
+}
+
+Link 569
+{
+    { FirstArc 568 }
+    { LastArc 568 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6097 }
+        { GUID "UID_3BEFEF8D-2592-4ad3-B9CA-2916F08939ED" }
+    }
+}
+
+Link 595
+{
+    { FirstArc 594 }
+    { LastArc 594 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6091 }
+        { GUID "UID_7A716FC8-A490-438f-B896-61395D6B20E6" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6094 }
+        { GUID "UID_9726F3D8-6121-4422-B983-27938DACE7D0" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6093 }
+        { GUID "UID_D461F1D3-E97D-4023-8118-708E18DDD1FB" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6092 }
+        { GUID "UID_859E2D97-FDB5-4c3d-8026-94E3496575B3" }
+    }
+}
+
+Link 829
+{
+    { FirstArc 828 }
+    { LastArc 828 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6090 }
+        { GUID "UID_3727E0F2-FAE4-4782-B28A-D211F7AA8A72" }
+    }
+}
+
+Link 677
+{
+    { FirstArc 676 }
+    { LastArc 676 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6086 }
+        { GUID "UID_4557A348-1D25-42c9-9360-A2A0E30224FF" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6089 }
+        { GUID "UID_08081F77-32E3-4e74-8571-24ED8B21F1A8" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6088 }
+        { GUID "UID_7AE4C710-F019-4bc8-A90F-83681AC7DC60" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6087 }
+        { GUID "UID_22F880DB-0877-45e0-A148-238AD8E2CBA4" }
+    }
+}
+
+Link 84
+{
+    { FirstArc 83 }
+    { LastArc 83 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6081 }
+        { GUID "UID_620DD35D-592A-429d-9B1D-488B02D0180B" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6085 }
+        { GUID "UID_B9CFA934-E277-468b-B17B-9EA1DD0061C3" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6084 }
+        { GUID "UID_940CD32F-937B-47e5-8EB4-0F9D6C704A2D" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6083 }
+        { GUID "UID_1EF69379-B893-451e-83AB-B21EB37EE96B" }
+    }
+}
+
+Link 831
+{
+    { FirstArc 830 }
+    { LastArc 830 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6080 }
+        { GUID "UID_58E4F7A1-0C6B-4ec1-9A6F-935361A49B1D" }
+    }
+}
+
+Link 763
+{
+    { FirstArc 762 }
+    { LastArc 762 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6077 }
+        { GUID "UID_1B4B8649-9697-48c5-BAB5-2FDBFB559172" }
+    }
+}
+
+Link 767
+{
+    { FirstArc 766 }
+    { LastArc 766 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6076 }
+        { GUID "UID_7285E77E-EB57-4d85-A56F-0520A2884E6E" }
+    }
+}
+
+Link 769
+{
+    { FirstArc 768 }
+    { LastArc 768 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6074 }
+        { GUID "UID_23692571-B982-49f3-831D-BABEF7951140" }
+    }
+}
+
+Link 777
+{
+    { FirstArc 776 }
+    { LastArc 776 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6071 }
+        { GUID "UID_799A187D-B543-4c99-81AC-8EDC4E8945BC" }
+    }
+}
+
+Link 779
+{
+    { FirstArc 778 }
+    { LastArc 778 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6070 }
+        { GUID "UID_65AE221A-21DE-4e73-8DB7-06B8ED1066AF" }
+    }
+}
+
+Link 781
+{
+    { FirstArc 780 }
+    { LastArc 780 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6068 }
+        { GUID "UID_FC2E5F6A-6233-410e-8CFC-8BB891E62967" }
+    }
+}
+
+Link 783
+{
+    { FirstArc 782 }
+    { LastArc 782 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6066 }
+        { GUID "UID_616339B0-E686-46cb-A6E7-B14DFECF6DF5" }
+    }
+}
+
+Link 488
+{
+    { FirstArc 487 }
+    { LastArc 487 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6063 }
+        { GUID "UID_63269BAF-FBDF-44e7-A8E0-D2D16742BCE9" }
+    }
+}
+
+Link 878
+{
+    { FirstArc 877 }
+    { LastArc 877 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6014 }
+        { GUID "UID_3CC151B8-CE20-472a-8F0C-543D70AC2CEF" }
+    }
+}
+
+Link 880
+{
+    { FirstArc 879 }
+    { LastArc 879 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6016 }
+        { GUID "UID_078C06A2-8EAB-4871-BBE4-99D1DC27AF92" }
+    }
+}
+
+Link 882
+{
+    { FirstArc 881 }
+    { LastArc 881 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6018 }
+        { GUID "UID_AAB4B1C8-7D83-4436-9133-0E7354E09A75" }
+    }
+}
+
+Link 884
+{
+    { FirstArc 883 }
+    { LastArc 883 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6020 }
+        { GUID "UID_D4049567-985E-40f7-9658-E9FA77813967" }
+    }
+}
+
+Link 886
+{
+    { FirstArc 885 }
+    { LastArc 885 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6025 }
+        { GUID "UID_11435C5D-2C3A-4793-A88C-0AE80A1C33F5" }
+    }
+}
+
+Link 920
+{
+    { FirstArc 919 }
+    { LastArc 919 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6286 }
+        { GUID "UID_7D2E2297-72BC-4fcb-9427-5B58B8581AE0" }
+    }
+}
+
+Link 925
+{
+    { FirstArc 924 }
+    { LastArc 924 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6296 }
+        { GUID "UID_A626F4C9-11AE-48ff-B727-7404C685F167" }
+    }
+}
+
+Link 956
+{
+    { FirstArc 955 }
+    { LastArc 955 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6305 }
+        { GUID "UID_A0340DCA-DEF2-476f-947D-4DB4AF7A6E58" }
+    }
+}
+
+Link 961
+{
+    { FirstArc 960 }
+    { LastArc 960 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6308 }
+        { GUID "UID_B107EAF4-7A55-46f5-B9EF-173D81392B23" }
+    }
+}
+
+Link 963
+{
+    { FirstArc 962 }
+    { LastArc 962 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6310 }
+        { GUID "UID_4C9729D0-9C59-4baf-BDD2-0D0A32B2DE68" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6313 }
+        { GUID "UID_796CEA41-F031-465a-A879-858BC29AC964" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6312 }
+        { GUID "UID_E48437A5-B779-4a92-8BBB-0D35C7985E3C" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6311 }
+        { GUID "UID_292F7590-2AD6-47ad-951C-70946B206FCE" }
+    }
+}
+
+Link 965
+{
+    { FirstArc 964 }
+    { LastArc 964 }
+    { Object
+        { PDMType Node }
+        { MappingName ConnectorNodeMapping }
+        { ID 6314 }
+        { GUID "UID_EEF0DC3A-3877-4451-8671-3AE7730D3F00" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectScope }
+        { ID 6317 }
+        { GUID "UID_0D7C079D-C81A-48b1-AB3C-3569F2456E20" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName FromMapping }
+        { ID 6316 }
+        { GUID "UID_39A9B75A-BCBD-4e43-94F5-A9863902CC07" }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName ToMapping }
+        { ID 6315 }
+        { GUID "UID_898EC091-17C9-40f5-BFC1-A4C3517BC72F" }
+    }
+}
+
+Link 1020
+{
+    { FirstArc 1019 }
+    { LastArc 1019 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMapping }
+        { ID 6026 }
+        { GUID "UID_7EA45875-F3E5-48c7-94F4-202B7D0D5699" }
+    }
+}
+
+Link 1024
+{
+    { FirstArc 1023 }
+    { LastArc 1023 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6302 }
+        { GUID "UID_D34CDE60-F14F-4f0f-AC71-28E513AC093D" }
+    }
+}
+
+Link 1026
+{
+    { FirstArc 1025 }
+    { LastArc 1025 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6299 }
+        { GUID "UID_4C04A876-C288-40f1-89A1-8965D236E4E7" }
+    }
+}
+
+Link 1028
+{
+    { FirstArc 1027 }
+    { LastArc 1027 }
+    { Object
+        { PDMType Link }
+        { MappingName PartPortMapping }
+        { ID 6023 }
+        { GUID "UID_0FE1B19A-DEE8-4095-9A9D-6CB2F8F3C8BD" }
+    }
+}
+
+Link 1033
+{
+    { FirstArc 1032 }
+    { LastArc 1032 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMappingO }
+        { ID 6392 }
+        { GUID "UID_AACDA7C9-CCD2-4b0e-A3C7-0EFC8537B8F2" }
+    }
+}
+
+Link 1038
+{
+    { FirstArc 1037 }
+    { LastArc 1037 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMappingO }
+        { ID 6401 }
+        { GUID "UID_353C2417-CB6A-4350-A311-77DDA1D14002" }
+    }
+}
+
+Link 1042
+{
+    { FirstArc 1041 }
+    { LastArc 1041 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMappingO }
+        { ID 6431 }
+        { GUID "UID_0F8B4D6E-D2D0-4d12-87DA-749DE9226230" }
+    }
+}
+
+Link 1047
+{
+    { FirstArc 1046 }
+    { LastArc 1046 }
+    { Object
+        { PDMType Link }
+        { MappingName PartContainsMappingO }
+        { ID 6422 }
+        { GUID "UID_2BE0B4AA-07B5-49d8-81F3-99E9AFFC0140" }
+    }
+}
+
+Link 1052
+{
+    { FirstArc 1051 }
+    { LastArc 1051 }
+}

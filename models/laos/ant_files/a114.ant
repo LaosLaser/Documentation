@@ -1,0 +1,63 @@
+FileObject 1
+{
+    { Name "a114" }
+    { Type ObjectAnnotation }
+    { GUID "UID_2F1D5C6B-21A0-4290-88AA-82D5A6B83BE8" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291919154_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 2908 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_B85027A0-0380-4a7a-B6A4-378EF1B639BA" }
+}
+
+NodeObject 99998
+{
+    { Name "pstoedit" }
+    { Type UmlPartInstance }
+    { ObjectId 2911 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_232E74BB-6276-4504-B4DA-9304B8883F5B" }
+}
+
+NodeObject 99997
+{
+    { Name "PSfile" }
+    { Type UmlPort }
+    { ObjectId 2937 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99998 }
+    { GUID "UID_677546FB-7731-4971-86E1-6BE0CF3A567E" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 2954 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 2956 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "PSfile" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 2957 }
+}
+

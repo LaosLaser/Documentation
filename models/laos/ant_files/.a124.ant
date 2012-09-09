@@ -1,0 +1,130 @@
+NodeObject 	3336
+{
+ { Name 	"%%class%%1291920135_3804"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	3281}
+ { GUID 	"UID_BEE3CD0E-B200-49c0-8082-DFD1D31352CF"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	3337
+{
+ { Name 	"Generic PS printer output"}
+ { Type 	UmlPartInstance}
+ { Sig 	""}
+ { ScopeNodeId 	3281}
+ { ObjectId 	3306}
+ { GUID 	"UID_D9E2FA10-E4AD-44fe-996D-BD047C44B2EC"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	3338
+{
+ { Name 	"%%class%%1291919695_3804"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	3117}
+ { GUID 	"UID_4715E723-E610-4e62-B7BC-20D26EFC7C2B"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	3339
+{
+ { Name 	"Frontend"}
+ { Type 	UmlPartInstance}
+ { Sig 	"UID_2D16ABDE-34BB-4ab8-8144-C34F25DD1454"}
+ { ScopeNodeId 	3117}
+ { ObjectId 	3154}
+ { GUID 	"UID_55F42C0E-438A-46ba-9FCB-C8DFD2178360"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+LinkObject 	3340
+{
+ { Name 	"web"}
+ { Type 	UmlDependency}
+ { Sig 	""}
+ { ObjectId 	3320}
+ { GUID 	"UID_3F13D4E4-094E-4bc8-BBD9-D83DEB488456"}
+ { SequenceId 	2947}
+ { ScopeNodeId 	0}
+ { FromNodeId 	3306}
+ { ToNodeId 	3154}
+ { Gocha 	0 }
+}
+NodeObject 	3342
+{
+ { Name 	"%%class%%1291920135_3804"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	3281}
+ { GUID 	"UID_BEE3CD0E-B200-49c0-8082-DFD1D31352CF"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	3343
+{
+ { Name 	"Generic PS printer output"}
+ { Type 	UmlPartInstance}
+ { Sig 	""}
+ { ScopeNodeId 	3281}
+ { ObjectId 	3306}
+ { GUID 	"UID_D9E2FA10-E4AD-44fe-996D-BD047C44B2EC"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	3344
+{
+ { Name 	"%%class%%1291919695_3804"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	3117}
+ { GUID 	"UID_4715E723-E610-4e62-B7BC-20D26EFC7C2B"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	3345
+{
+ { Name 	"Frontend"}
+ { Type 	UmlPartInstance}
+ { Sig 	"UID_2D16ABDE-34BB-4ab8-8144-C34F25DD1454"}
+ { ScopeNodeId 	3117}
+ { ObjectId 	3154}
+ { GUID 	"UID_55F42C0E-438A-46ba-9FCB-C8DFD2178360"}
+ { SequenceId 	2947}
+ { Gocha 	-1 }
+}
+
+
+LinkObject 	3346
+{
+ { Name 	"lpr/smb"}
+ { Type 	UmlDependency}
+ { Sig 	""}
+ { ObjectId 	3320}
+ { GUID 	"UID_3F13D4E4-094E-4bc8-BBD9-D83DEB488456"}
+ { SequenceId 	2947}
+ { ScopeNodeId 	0}
+ { FromNodeId 	3306}
+ { ToNodeId 	3154}
+ { Gocha 	0 }
+}

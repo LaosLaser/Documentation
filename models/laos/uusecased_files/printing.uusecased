@@ -1,0 +1,89 @@
+Diagram UmlUseCaseDiagram
+{
+    { Name "printing" }
+    { Format "1.7" }
+    { Scale 1.00 }
+    { PanX -483 }
+    { PanY -199 }
+    { Alignment 32 }
+    { GUID "UID_BDFB26EC-320A-468a-A396-7A01FBE79ADC" }
+    { Summary
+        { Nodes 3 }
+        { Arcs 1 }
+    }
+}
+
+Node 2
+{
+    { Type Actor }
+    { Loc -346 20 }
+    { Scale 128.00 64.00 }
+    { Label
+        { Text "operator" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ObjectMapping }
+        { ID 3708 }
+        { GUID "UID_565BA4EE-F267-4da6-AEDA-A2240D1B0E21" }
+    }
+}
+
+Node 3
+{
+    { Type System }
+    { Loc 191 9 }
+    { Scale 941.18 584.78 }
+    { Label
+        { Text "lasering" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 3709 }
+        { GUID "UID_CA861A88-E062-427a-A8BB-DC46FC8CE6D3" }
+    }
+}
+
+Node 4
+{
+    { Type UseCase }
+    { Loc -231 105 }
+    { Scale 281.60 90.35 }
+    { Label
+        { Text "printing" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName ClassMapping }
+        { ID 3710 }
+        { GUID "UID_D37F75A8-B6AF-4b6d-9173-8BADB9837857" }
+    }
+}
+
+Arc 5
+{
+    { Type Communicates }
+    { From
+        { ID 2 }
+        { Loc -295 76 }
+        { Offset 12 10 }
+    }
+    { To
+        { ID 4 }
+        { Loc -231 127 }
+        { Offset -22 -12 }
+    }
+}
+
+Link 6
+{
+    { FirstArc 5 }
+    { LastArc 5 }
+    { Object
+        { PDMType Link }
+        { MappingName InteractionMapping }
+        { ID 3711 }
+        { GUID "UID_F7EE9E65-4071-48eb-BD52-41C792AE7C37" }
+    }
+}

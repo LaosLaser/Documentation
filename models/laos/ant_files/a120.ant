@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a120" }
+    { Type ObjectAnnotation }
+    { GUID "UID_20E8475F-CEFE-4155-BB7F-7C4C37B55A83" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291919590_0_3804" }
+    { Type UmlObjectClassScope }
+    { ObjectId 3061 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_779BE4D3-E7F1-4e1f-AE98-FA62DE64CABF" }
+}
+
+NodeObject 99998
+{
+    { Name "Driver" }
+    { Type UmlObjectInstance }
+    { ObjectId 3157 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_C48C1F26-9B5B-4195-97FC-225DAB41ABF6" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3076 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3078 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "%%object%%1291919590_3804" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3079 }
+}
+

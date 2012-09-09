@@ -1,0 +1,62 @@
+FileObject 1
+{
+    { Name "a153" }
+    { Type ObjectAnnotation }
+    { GUID "UID_42657AA9-2071-4a70-BA3E-F278D37840A8" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292451659_1588" }
+    { Type UmlPartClassScope }
+    { ObjectId 4006 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_4E597A82-99BF-4e2b-83BB-AA50452D56CA" }
+}
+
+NodeObject 99998
+{
+    { Name "lpc" }
+    { Type UmlPartInstance }
+    { ObjectId 4009 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_59ECBF8C-20EA-442f-9519-ECB86C5BECA0" }
+}
+
+NodeObject 99997
+{
+    { Name "O3" }
+    { Type UmlPort }
+    { ObjectId 4201 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99998 }
+    { GUID "UID_19E3D384-756C-4e37-96F2-E0B5FBE556A9" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 4057 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 4059 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "PWMout0_opto_" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4060 }
+}
+

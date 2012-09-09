@@ -1,0 +1,63 @@
+FileObject 1
+{
+    { Name "a234" }
+    { Type ObjectAnnotation }
+    { GUID "UID_BD8F9E88-EE15-4028-9639-624C04635038" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1293458943_5600" }
+    { Type UmlPartClassScope }
+    { ObjectId 6879 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_5A6C9BF5-AE07-4337-B2E0-4DAE0237B5E8" }
+}
+
+NodeObject 99998
+{
+    { Name "Mainboard" }
+    { Type UmlPartInstance }
+    { ObjectId 6880 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_56767D25-BF9E-4c5a-A679-8C91ED9D558A" }
+}
+
+NodeObject 99997
+{
+    { Name "" }
+    { Type UmlObjectInstanceAttribute }
+    { ObjectId 7589 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99998 }
+    { GUID "UID_72F553C3-4B50-4106-930B-6C58BAE31768" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 7594 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 7596 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 7597 }
+}
+

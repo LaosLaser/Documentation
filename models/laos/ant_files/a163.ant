@@ -1,0 +1,63 @@
+FileObject 1
+{
+    { Name "a163" }
+    { Type ObjectAnnotation }
+    { GUID "UID_3E343BC1-9E77-4b28-9EAE-33B461F0A55B" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292452332_6076" }
+    { Type UmlPartClassScope }
+    { ObjectId 4411 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_0425B702-F6B5-4524-AF67-F560DAF13930" }
+}
+
+NodeObject 99998
+{
+    { Name "LAOS" }
+    { Type UmlPartInstance }
+    { ObjectId 4414 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_F8819E68-100B-461e-AE5C-6663C5C1D963" }
+}
+
+NodeObject 99997
+{
+    { Name "STEP_24V/2A" }
+    { Type UmlObjectInstanceAttribute }
+    { ObjectId 4606 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99998 }
+    { GUID "UID_2DD91620-6850-4aed-B0A0-6539484F26F0" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 4611 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 4613 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "STEP_24V/2A" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4614 }
+}
+

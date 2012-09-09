@@ -1,0 +1,24 @@
+NodeObject 	5404
+{
+ { Name 	"%%class%%1292884749_4168"}
+ { Type 	UmlPartClassScope}
+ { Sig 	""}
+ { ScopeNodeId 	0}
+ { ObjectId 	5347}
+ { GUID 	"UID_5C53E459-A0B0-403c-9330-DB727E204682"}
+ { SequenceId 	5307}
+ { Gocha 	-1 }
+}
+
+
+NodeObject 	5405
+{
+ { Name 	"Extract settings from DCS"}
+ { Type 	UmlPartInstance}
+ { Sig 	"UID_25E8EDE7-6FA1-49ea-86E5-4ABE43EA83C2"}
+ { ScopeNodeId 	5347}
+ { ObjectId 	5351}
+ { GUID 	"UID_F15FDA8F-0359-4f85-97C3-1EFE2625BAAD"}
+ { SequenceId 	5307}
+ { Gocha 	0 }
+}

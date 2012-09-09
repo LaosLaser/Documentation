@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a202" }
+    { Type ObjectAnnotation }
+    { GUID "UID_E3AE9549-58C1-405d-9DFF-A7F404C4745E" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292885139_4168" }
+    { Type UmlPartClassScope }
+    { ObjectId 5535 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_E13017D6-0BCF-41e2-8A94-66CA6921FA2A" }
+}
+
+NodeObject 99998
+{
+    { Name "File storage" }
+    { Type UmlPartInstance }
+    { ObjectId 5544 }
+    { AnnotFileId 1 }
+    { Sig "UID_4F5C2944-C7AA-4d8a-9686-34AB589F6E56" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_6199775D-880B-4a30-A642-23FBA517BD9C" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 5541 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 5542 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "MotorY" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 5543 }
+}
+

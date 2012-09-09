@@ -1,0 +1,53 @@
+FileObject 1
+{
+    { Name "a121" }
+    { Type ObjectAnnotation }
+    { GUID "UID_ADB7F4C1-BE19-4d40-927A-44ADC09CB593" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291920135_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 3281 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_BEE3CD0E-B200-49c0-8082-DFD1D31352CF" }
+}
+
+NodeObject 99998
+{
+    { Name "Browser" }
+    { Type UmlPartInstance }
+    { ObjectId 3282 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_FA044D70-63A0-463a-B09A-8BCCFD9C5165" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3289 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3291 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Browser" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3292 }
+}
+

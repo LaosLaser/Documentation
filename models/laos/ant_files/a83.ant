@@ -1,0 +1,85 @@
+FileObject 1
+{
+    { Name "a83" }
+    { Type ObjectAnnotation }
+    { GUID "UID_A7FFEA2B-6E12-4cfe-9018-8B59B648641C" }
+}
+
+NodeObject 99999
+{
+    { Name "UMLStandard" }
+    { Type UmlMetaPackage }
+    { ObjectId 203 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_B05A0104-5FAF-45cf-99F1-A239989A674D" }
+}
+
+NodeObject 99998
+{
+    { Name "UmlPort" }
+    { Type UmlMetaClass }
+    { ObjectId 379 }
+    { Sig "metaclass" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_F0C12F0A-9DF8-4bb9-B2D7-B0C7537763F9" }
+}
+
+NodeObject 99997
+{
+    { Name "UMLStandard" }
+    { Type UmlMetaPackage }
+    { ObjectId 203 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_B05A0104-5FAF-45cf-99F1-A239989A674D" }
+}
+
+NodeObject 99996
+{
+    { Name "INPUT" }
+    { Type UmlMetaClass }
+    { ObjectId 383 }
+    { Sig "stereotype" }
+    { ScopeNodeId 99997 }
+    { GUID "UID_5A775FD0-A263-450d-B171-4690E0E5BDE5" }
+}
+
+LinkObject 99995
+{
+    { Name "" }
+    { Type UmlMetaAssociation }
+    { ObjectId 486 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99998 }
+    { FromNodeId 99996 }
+    { GUID "UID_28BF9103-9E2E-43b2-9A61-44F5D68CB6A5" }
+}
+
+NoteObject 2
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99995 }
+    { ObjectId 2404 }
+}
+
+ItemObject 3
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 2405 }
+}
+
+ItemObject 4
+{
+    { Type UniqueID }
+    { Value "ID_1239269122755" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 2406 }
+}
+

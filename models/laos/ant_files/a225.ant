@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a225" }
+    { Type ObjectAnnotation }
+    { GUID "UID_10620D5D-17E4-417a-892A-C6DED51DF203" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292885692_5992" }
+    { Type UmlPartClassScope }
+    { ObjectId 6369 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_A3F0310F-4417-469d-BB53-0064CD45D961" }
+}
+
+NodeObject 99998
+{
+    { Name "GCODE" }
+    { Type UmlPartInstance }
+    { ObjectId 6391 }
+    { AnnotFileId 1 }
+    { Sig "UID_9DAF4379-BD55-40dd-8D24-2565F4AB0C04" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_F8F4B377-A70C-40c5-B447-61504E011762" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 6385 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 6387 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "Controllers" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 6388 }
+}
+

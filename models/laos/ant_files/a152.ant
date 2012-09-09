@@ -1,0 +1,42 @@
+FileObject 1
+{
+    { Name "a152" }
+    { Type ObjectAnnotation }
+    { GUID "UID_8AD2ED15-D37D-431e-A417-F5E698A83ADB" }
+}
+
+NodeObject 99999
+{
+    { Name "O2" }
+    { Type UmlPort }
+    { ObjectId 4193 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_9D50E6F5-C0A3-4b2c-A86B-E7541DF495BB" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4057 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4059 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "PWMout0_opto_" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4060 }
+}
+

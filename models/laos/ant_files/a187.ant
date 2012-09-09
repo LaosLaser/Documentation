@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a187" }
+    { Type ObjectAnnotation }
+    { GUID "UID_C2BB6232-1F73-4abe-B22B-A668BE273CD8" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292884352_7_4168" }
+    { Type UmlPartClassScope }
+    { ObjectId 5033 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_10ADE563-ECED-4150-A4FD-3EA00998BFFA" }
+}
+
+NodeObject 99998
+{
+    { Name "Generic PS printer output" }
+    { Type UmlPartInstance }
+    { ObjectId 5034 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_78F2DFA3-D814-4514-BE86-4322EA0C67FE" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3289 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3291 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "Browser" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3292 }
+}
+

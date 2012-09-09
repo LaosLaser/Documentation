@@ -1,0 +1,84 @@
+FileObject 1
+{
+    { Name "a124" }
+    { Type ObjectAnnotation }
+    { GUID "UID_4804E1C1-79A7-4dee-8FDD-D2B0F2B3BDCC" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291919695_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 3117 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_4715E723-E610-4e62-B7BC-20D26EFC7C2B" }
+}
+
+NodeObject 99998
+{
+    { Name "Frontend" }
+    { Type UmlPartInstance }
+    { ObjectId 3154 }
+    { Sig "UID_2D16ABDE-34BB-4ab8-8144-C34F25DD1454" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_55F42C0E-438A-46ba-9FCB-C8DFD2178360" }
+}
+
+NodeObject 99997
+{
+    { Name "%%class%%1291920135_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 3281 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_BEE3CD0E-B200-49c0-8082-DFD1D31352CF" }
+}
+
+NodeObject 99996
+{
+    { Name "Generic PS printer output" }
+    { Type UmlPartInstance }
+    { ObjectId 3306 }
+    { Sig "" }
+    { ScopeNodeId 99997 }
+    { GUID "UID_D9E2FA10-E4AD-44fe-996D-BD047C44B2EC" }
+}
+
+LinkObject 99995
+{
+    { Name "" }
+    { Type UmlDependency }
+    { ObjectId 3320 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99998 }
+    { FromNodeId 99996 }
+    { GUID "UID_3F13D4E4-094E-4bc8-BBD9-D83DEB488456" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99995 }
+    { ObjectId 3328 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99995 }
+    { ObjectId 3330 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3331 }
+}
+

@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a186" }
+    { Type ObjectAnnotation }
+    { GUID "UID_3C72C676-DAB7-4038-8E38-7E8844622922" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292884352_5_4168" }
+    { Type UmlPartClassScope }
+    { ObjectId 5026 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_21D212FB-6052-4cf6-BFF1-7AE0C0DE977D" }
+}
+
+NodeObject 99998
+{
+    { Name "Laos HW Driver" }
+    { Type UmlPartInstance }
+    { ObjectId 5027 }
+    { AnnotFileId 1 }
+    { Sig "UID_25E8EDE7-6FA1-49ea-86E5-4ABE43EA83C2" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_6C241EBD-028A-4fd2-9F43-A64E5C1A8F0C" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3584 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3586 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "Laos HW Driver" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3587 }
+}
+

@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a116" }
+    { Type ObjectAnnotation }
+    { GUID "UID_C6AB016B-154A-45a5-89CE-889B7932C724" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291919484_3_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 3006 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_A03C3499-1945-4b53-BD5C-37FC75F4B199" }
+}
+
+NodeObject 99998
+{
+    { Name "Frontend" }
+    { Type UmlPartInstance }
+    { ObjectId 3007 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_D58C5312-8A46-44c1-A115-1DF284EB861B" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 2983 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 2985 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "Frontend" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 2986 }
+}
+

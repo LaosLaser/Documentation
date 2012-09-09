@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a131" }
+    { Type ObjectAnnotation }
+    { GUID "UID_0E495155-1217-4e71-97E5-84ABD5921942" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291920432_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 3404 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_B3B344C3-E789-4246-A437-3D50197D4FC1" }
+}
+
+NodeObject 99998
+{
+    { Name "Peripheral I/O" }
+    { Type UmlPartInstance }
+    { ObjectId 3414 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_C57B1027-92FF-4c5d-BDA6-F2C35C682E2A" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3373 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3375 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "MotorY" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3376 }
+}
+

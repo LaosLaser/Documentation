@@ -1,0 +1,53 @@
+FileObject 1
+{
+    { Name "a132" }
+    { Type ObjectAnnotation }
+    { GUID "UID_2103AFCF-81C7-423a-A509-642871DC06F7" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1291920673_3804" }
+    { Type UmlPartClassScope }
+    { ObjectId 3435 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_998C4EDB-9C68-4caf-8D27-E12D988F06FC" }
+}
+
+NodeObject 99998
+{
+    { Name "IOdriver" }
+    { Type UmlPartInstance }
+    { ObjectId 3440 }
+    { AnnotFileId 1 }
+    { Sig "UID_2D16ABDE-34BB-4ab8-8144-C34F25DD1454" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_31F613FA-BF30-48c7-8965-3A124CD7A785" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3455 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3457 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "IOdriver" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3458 }
+}
+

@@ -1,0 +1,62 @@
+FileObject 1
+{
+    { Name "a145" }
+    { Type ObjectAnnotation }
+    { GUID "UID_359503C5-5CA3-49d6-9454-83E2FA758746" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292451659_1588" }
+    { Type UmlPartClassScope }
+    { ObjectId 4006 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_4E597A82-99BF-4e2b-83BB-AA50452D56CA" }
+}
+
+NodeObject 99998
+{
+    { Name "lpc" }
+    { Type UmlPartInstance }
+    { ObjectId 4009 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_59ECBF8C-20EA-442f-9519-ECB86C5BECA0" }
+}
+
+NodeObject 99997
+{
+    { Name "USBHOST" }
+    { Type UmlPort }
+    { ObjectId 4106 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99998 }
+    { GUID "UID_8BBDCDC0-7930-4ade-93C6-C529CDEC1BC0" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 4100 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 4102 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "USB_HOST_" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4103 }
+}
+

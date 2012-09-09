@@ -1,0 +1,83 @@
+FileObject 1
+{
+    { Name "a223" }
+    { Type ObjectAnnotation }
+    { GUID "UID_7E10C886-64EC-40cb-8670-814F0A2ABBF4" }
+}
+
+NodeObject 99999
+{
+    { Name "%%class%%1292884352_4_4168" }
+    { Type UmlPartClassScope }
+    { ObjectId 5023 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_BB0F807E-161B-435b-AD0D-04793E7FEAC8" }
+}
+
+NodeObject 99998
+{
+    { Name "Extract settings from DCS" }
+    { Type UmlPartInstance }
+    { ObjectId 6095 }
+    { Sig "UID_80D8DBDD-CB28-4e99-8309-6F5D82AD4B25" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_CA5B8270-972B-45b4-8930-ECFCCE1624D4" }
+}
+
+NodeObject 99997
+{
+    { Name "%%class%%1292884352_7_4168" }
+    { Type UmlPartClassScope }
+    { ObjectId 5033 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_10ADE563-ECED-4150-A4FD-3EA00998BFFA" }
+}
+
+NodeObject 99996
+{
+    { Name "Generic PS printer output" }
+    { Type UmlPartInstance }
+    { ObjectId 5034 }
+    { Sig "" }
+    { ScopeNodeId 99997 }
+    { GUID "UID_78F2DFA3-D814-4514-BE86-4322EA0C67FE" }
+}
+
+LinkObject 99995
+{
+    { Name "lpr/smb" }
+    { Type UmlDependency }
+    { ObjectId 6117 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99998 }
+    { FromNodeId 99996 }
+    { GUID "UID_53968F9C-FD8D-475c-9855-C0198F0E58E4" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99995 }
+    { ObjectId 6162 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99995 }
+    { ObjectId 6163 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 6164 }
+}

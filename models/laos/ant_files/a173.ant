@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a173" }
+    { Type ObjectAnnotation }
+    { GUID "UID_078B145C-A3C7-48c9-8E28-7E479EEA2B04" }
+}
+
+NodeObject 99999
+{
+    { Name "PPD" }
+    { Type UmlClass }
+    { ObjectId 4908 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_CA6FBF41-EDC8-4575-B970-762DD8E9B8DF" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4913 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4915 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "PPD" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4916 }
+}
+

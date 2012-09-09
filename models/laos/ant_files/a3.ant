@@ -1,0 +1,54 @@
+FileObject 1
+{
+    { Name "a3" }
+    { Type ObjectAnnotation }
+    { GUID "UID_6D0D8D8D-1C38-4dfa-9B89-3099D8767444" }
+}
+
+NodeObject 99999
+{
+    { Name "UMLStandard" }
+    { Type UmlMetaPackage }
+    { ObjectId 203 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_B05A0104-5FAF-45cf-99F1-A239989A674D" }
+}
+
+NodeObject 99998
+{
+    { Name "UmlPort" }
+    { Type UmlMetaClass }
+    { ObjectId 379 }
+    { AnnotFileId 1 }
+    { Sig "metaclass" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_F0C12F0A-9DF8-4bb9-B2D7-B0C7537763F9" }
+}
+
+NoteObject 2
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 804 }
+}
+
+ItemObject 3
+{
+    { Type ObjectName }
+    { Value "UmlPort" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 805 }
+}
+
+ItemObject 4
+{
+    { Type UniqueID }
+    { Value "ID_1239269078950" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 806 }
+}
+
